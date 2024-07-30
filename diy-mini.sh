@@ -118,5 +118,8 @@ sed -i 's|admin\\|admin\\/services\\|g' feeds/luci/applications/luci-app-dockerm
 # 取消对 samba4 的菜单调整
 # sed -i '/samba4/s/^/#/' package/lean/default-settings/files/zzz-default-settings
 
+# 修改插件名字
+sed -i 's/"带宽监控"/"监控"/g' `grep "带宽监控" -rl ./`
+sed -i 's/"网络存储"/"存储"/g' `grep "网络存储" -rl ./`
 ./scripts/feeds update -a
 ./scripts/feeds install -a
