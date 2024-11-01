@@ -121,5 +121,11 @@ sed -i 's|admin\\|admin\\/services\\|g' feeds/luci/applications/luci-app-dockerm
 # 修改插件名字
 sed -i 's/"带宽监控"/"监控"/g' `grep "带宽监控" -rl ./`
 sed -i 's/"网络存储"/"存储"/g' `grep "网络存储" -rl ./`
+sed -i 's/"iStore"/"商店"/g' `grep "iStore" -rl ./`
+sed -i 's/"Docker"/"容器"/g' `grep "Docker" -rl ./`
+sed -i 's/"存储券"/"存储"/g' `grep "存储券" -rl ./`
+sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `grep "Turbo ACC 网络加速" -rl ./`
+sed -i 's/"DHCP/DNS"/"DHCP"/g' `grep "DHCP/DNS" -rl ./`
+sed -i 's/"存储券"/"存储"/g' `grep "存储券" -rl ./`
 ./scripts/feeds update -a
 ./scripts/feeds install -a
