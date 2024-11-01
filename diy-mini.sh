@@ -126,6 +126,6 @@ sed -i 's/"Docker"/"容器"/g' `grep "Docker" -rl ./`
 sed -i 's/"存储卷"/"存储"/g' `grep "存储卷" -rl ./`
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `grep "Turbo ACC 网络加速" -rl ./`
 sed -i 's/"DHCP/DNS"/"DHCP"/g' `grep "DHCP/DNS" -rl ./`
-sed -i 's/"存储卷"/"存储"/g' `grep "存储卷" -rl ./`
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
