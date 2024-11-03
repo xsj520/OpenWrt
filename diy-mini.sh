@@ -128,7 +128,7 @@ sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `grep "Turbo ACC 网络加�
 sed -i 's/"TTYD 终端"/"TT 终端"/g' `grep "TTYD 终端" -rl ./`
 sed -i 's/"上网时间控制"/"上网控制"/g' `grep "上网时间控制" -rl ./`
 sed -i 's/"启动项"/"启动项目"/g' `grep "启动项" -rl ./`
-sed -i 's/"挂载点"/"挂载地点"/g' `grep "挂在点" -rl ./`
+sed -i 's/"挂载点"/"挂载地点"/g' `grep "挂载点" -rl ./`
 sed -i 's/"重启"/"重启开关"/g' `grep "重启" -rl ./`
 ./scripts/feeds update -a
 ./scripts/feeds install -a
