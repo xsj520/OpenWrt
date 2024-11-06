@@ -139,6 +139,6 @@ sed -i 's/"无线"/"无线设置"/g' `grep "无线" -rl ./`
 sed -i 's/"系统"/"系统设置"/g' `grep "系统" -rl ./`
 sed -i 's/"管理权"/"管理设置"/g' `grep "管理权" -rl ./`
 sed -i 's/"软件包"/"软件包名"/g' `grep "软件包" -rl ./`
-
+sed -i 's/"UPnP"/"U P N P"/g' `grep "UPnP" -rl ./`
 ./scripts/feeds update -a
 ./scripts/feeds install -a
