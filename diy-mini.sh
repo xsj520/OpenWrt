@@ -140,5 +140,6 @@ sed -i 's/"系统"/"系统设置"/g' `grep "系统" -rl ./`
 sed -i 's/"管理权"/"管理设置"/g' `grep "管理权" -rl ./`
 sed -i 's/"软件包"/"软件包名"/g' `grep "软件包" -rl ./`
 sed -i 's/"UPnP"/"U P N P"/g' `grep "UPnP" -rl ./`
+sed -i 's/"动态 DNS"/"动态DNS"/g' `grep "动态 DNS" -rl ./`
 ./scripts/feeds update -a
 ./scripts/feeds install -a
