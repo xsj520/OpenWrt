@@ -135,7 +135,7 @@ sed -i 's/"DHCP/DNS"/"DHCP/D"/g' `grep "DHCP/DNS" -rl ./`
 sed -i 's/"防火墙"/"防火墙区"/g' `grep "防火墙" -rl ./`
 sed -i 's/"主机名"/"主机名称"/g' `grep "主机名" -rl ./`
 sed -i 's/"接口"/"接口设置"/g' `grep "接口" -rl ./`
-sed -i 's/"无线"/"无线设置"/g' `grep "无线设置" -rl ./`
+sed -i 's/"无线"/"无线设置"/g' `grep "无线" -rl ./`
 sed -i 's/"系统"/"系统设置"/g' `grep "系统" -rl ./`
 sed -i 's/"管理权"/"管理设置"/g' `grep "管理权" -rl ./`
 sed -i 's/"软件包"/"软件包名"/g' `grep "软件包" -rl ./`
