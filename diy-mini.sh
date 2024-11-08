@@ -131,12 +131,12 @@ sed -i 's/"启动项"/"启动项目"/g' `grep "启动项" -rl ./`
 sed -i 's/"挂载点"/"挂载地点"/g' `grep "挂载点" -rl ./`
 sed -i 's/"重启"/"重启开关"/g' `grep "重启" -rl ./`
 sed -i 's/"ShadowSocksR Plus+"/"科学上网"/g' `grep "ShadowSocksR Plus+" -rl ./`
-sed -i 's/"DHCP"/"DH"/g' `grep "DHCP" -rl ./`
+
 sed -i 's/"防火墙"/"防火墙区"/g' `grep "防火墙" -rl ./`
 sed -i 's/"主机名"/"主机名称"/g' `grep "主机名" -rl ./`
 sed -i 's/"接口"/"接口设置"/g' `grep "接口" -rl ./`
 sed -i 's/"无线"/"无线设置"/g' `grep "无线" -rl ./`
-sed -i 's/"系统设置"/"系统"/g' `grep "系统设置" -rl ./`
+
 sed -i 's/"管理权"/"管理设置"/g' `grep "管理权" -rl ./`
 sed -i 's/"软件包"/"软件包名"/g' `grep "软件包" -rl ./`
 sed -i 's/"UPnP"/"U P N P"/g' `grep "UPnP" -rl ./`
